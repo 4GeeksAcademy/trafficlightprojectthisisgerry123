@@ -1,56 +1,63 @@
-body{
-    display: flex;
-    justify-content: center;
-}
-.trafficlighttop{
+body {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     justify-content: center;
-    margin-left: 50px;
-    margin-top: 1.5rem;
+  }
+  
+  .trafficlighttop {
+    margin-left: 49px;
     background-color: black;
-    width:20px;
-    height:100px;
-}
-.trafficlight{
+    width: 20px;
+    height: 100px;
+  }
+  
+  .trafficlight {
     padding: 10px;
     background-color: black;
     width: 120px;
-    height: 350px;
+    height: auto;
     border-radius: 15px;
-
-}
-
-.light{
+  }
+  
+  .light {
     text-align: center;
     margin-bottom: 15px;
-    height:100px;
-    width:100px;
+    height: 100px;
+    width: 100px;
     border-radius: 50px;
-}
-.red{
+  }
+  
+  .red {
     background-color: red;
-}
-.red:hover{
-    box-shadow: 0px 0px 50px 50px;
-    color: rgb(240, 240, 170)
-}
-.yellow{
+  }
+  
+  .yellow {
     background-color: yellow;
-}
-.yellow:hover{
-    box-shadow: 0px 0px 50px 50px;
-    color: rgb(240, 240, 170)
-}
-.green{
+  }
+  
+  .green {
     background-color: green;
-}
-.green:hover{
-    box-shadow: 0px 0px 50px 50px;
-    color: rgb(240, 240, 170)
-}
-
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .glow {
+    box-shadow: 0px 0px 50px 20px rgb(244, 244, 203);
+  }
+  
+  button {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  
 
 /* 
 
